@@ -47,7 +47,7 @@ This HTML is setup as as a Jinja2 layout, coders use layouts for:
 </body>
 
 {% block background %}
-    <script src="{{ url_for('static', filename='js/2560.webp') }}"></script>
+    <img class="card-img-top" src="{{ url_for('static', filename='js/2560.webp') }}" alt="Python Development" height="500">
 {% endblock %}
 
 </html>
